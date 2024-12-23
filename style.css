@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+.back{
+    position: relative;
+    top: 2px; left: 4px;
+    background-color:#2a3c54;
+    color: white;
+    outline: none;
+    border: none;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#70939d;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 30rem;
+    text-transform: capitalize;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.ser{
+    width: 5rem;
+}
+.container{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 4rem;
+    background-color: rgba(244, 241, 241, 0.3);
+    padding: 2rem;
+    color:#1f373e;
+    visibility: hidden;
+}
+.place{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.temp{  
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 0;
+}
+.deg{
+    display: flex;
+    width: 7rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.min{
+    width: 50%;
+}
+.max{
+    width: 50%;
+}
+.desc{
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.windspeed{
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
